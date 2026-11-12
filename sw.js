@@ -1,9 +1,11 @@
-const CACHE = 'planty-v1';
+const CACHE = 'planty-v3';
 const ASSETS = [
   '/planty/index.html',
   '/planty/manifest.json',
   '/planty/icons/icon-192.png',
-  '/planty/icons/icon-512.png'
+  '/planty/icons/icon-512.png',
+  '/planty/farm/atlas.png',
+  '/planty/farm/objects.png'
 ];
 
 self.addEventListener('install', e => {
